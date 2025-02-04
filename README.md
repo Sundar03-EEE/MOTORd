@@ -1,4 +1,4 @@
-# Project Title
+# Motor Dyno
 ## 1. Project Overview
 ### 1.1 Project Name
 > *[Enter project name here]*
