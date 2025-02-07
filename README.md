@@ -60,7 +60,7 @@ Tmc2209 coding mehthodlogy:
 |https://www.youtube.com/watch?v=MNTuMiNC2TU| Motor dyno sample |
 |https://youtu.be/vSgcH2wjCwY?si=yuAE-5N2YzfLf8_i|Connection of Tmc2209 driver with MKS Gen L V1.0|
 |https://www.youtube.com/watch?v=sxzoAGf1kOo| Hx711 connection with load cell|
-|
+|https://www.programming-electronics-diy.xyz/2023/12/tmc2209-stepper-driver-module-tutorial.html|Programming modes of Tmc2209|
 
 
 
