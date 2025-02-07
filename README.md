@@ -46,6 +46,7 @@ Tmc2209 coding mehthodlogy:
 
 ### 3.1 Research Links & Resources
 | Link | Notes |
+
 |https://youtu.be/vSgcH2wjCwY?si=yuAE-5N2YzfLf8_i|Connection of Tmc2209 driver with MKS Gen L V1.0|
 
 
