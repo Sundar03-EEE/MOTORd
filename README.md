@@ -48,6 +48,9 @@ Tmc2209 coding mehthodlogy:
 | Link | Notes |
 |----------|-----------|
 |https://youtu.be/vSgcH2wjCwY?si=yuAE-5N2YzfLf8_i|Connection of Tmc2209 driver with MKS Gen L V1.0|
+|----------|-----------|
+|https://www.youtube.com/watch?v=sxzoAGf1kOo| Hx711 connection with load cell|
+
 
 
 ### 3.2 Key Decisions & Changes
