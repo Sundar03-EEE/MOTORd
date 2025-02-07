@@ -11,6 +11,7 @@ GOALS:
 - Evaluate and compare different NEMA17 stepper motors to determine their performance differences.
 - Identify the best-performing motor based on key parameters such as torque, efficiency, heat generation, and noise levels.
 - Help  engineers and hobbyists make an informed decision when selecting a NEMA17 stepper motor for 3d printers.
+
 OBJECTIVES:
   -Test multiple NEMA17 stepper motors from different manufacturers.
   - Measure and analyze key performance metrics
