@@ -1,16 +1,28 @@
 # Motor Dyno
 ## 1. Project Overview
 ### 1.1 Project Name
-> *[Enter project name here]*
+> STEPPER MOTOR DYNO
 
 ### 1.2 Description
-> *Briefly describe what this project aims to achieve.*
+> a dyno designed to test the parameters of nema17(17HS8401S/17HS4401S) and check speed torque characteristics 
 
 ### 1.3 Goals & Objectives
-- *List the high-level objectives and expected outcomes.*
-
+GOALS:
+- Evaluate and compare different NEMA17 stepper motors to determine their performance differences.
+- Identify the best-performing motor based on key parameters such as torque, efficiency, heat generation, and noise levels.
+- Help  engineers and hobbyists make an informed decision when selecting a NEMA17 stepper motor for 3d printers.
+OBJECTIVES:
+  -Test multiple NEMA17 stepper motors from different manufacturers.
+  - Measure and analyze key performance metrics
+  - Compare real-world performance vs. manufacturer specifications.
+  - Provide practical insights and recommendations for choosing the best motor based on specific applications.
 ### 1.4 Key Features
-- *Outline the main functionalities and design goals.*
+Stepper motors tested:
+- Hanpose stepper motors 17HS8401S and 17HS4401S are being tested.
+perfromance parameters:
+- Torque output
+- voltage and current under increasing breaking force.
+- 
 
 ---
 
@@ -27,6 +39,7 @@
 ---
 
 ## 3. Development Log
+Tmc2209 coding mehthodlogy:
 *(Use this section to record ongoing research, issues, and progress. Clean it up as the project solidifies.)*
 
 ### 3.1 Research Links & Resources
