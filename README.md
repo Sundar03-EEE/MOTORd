@@ -20,6 +20,7 @@ OBJECTIVES:
 ### 1.4 Key Features
 Stepper motors tested:
 - Hanpose stepper motors 17HS8401S and 17HS4401S are being tested.
+- 
 perfromance parameters:
 - Torque output
 - voltage and current under increasing breaking force.
@@ -44,9 +45,9 @@ Tmc2209 coding mehthodlogy:
 *(Use this section to record ongoing research, issues, and progress. Clean it up as the project solidifies.)*
 
 ### 3.1 Research Links & Resources
-| Date       | Link | Notes |
-|------------|------|-------|
-| YYYY-MM-DD | [Link](#) | *Brief note on relevance* |
+| Link | Notes |
+|------|-------|
+
 
 ### 3.2 Key Decisions & Changes
 - *Document major design changes and why they were made.*
