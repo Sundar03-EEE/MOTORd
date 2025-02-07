@@ -32,7 +32,7 @@ perfromance parameters:
 ### 2.1 Hardware Requirements
 |Componenet|Datasheet/schematics|
 |----------|-----------|
-|MKS Gen LV1.0|https://www.botnroll.com/img/cms/MKS-Gen-L.pdf/https://github.com/makerbase-mks/MKS-GEN_L/blob/master/hardware/MKS%20Gen_L%20V1.0_008/MKS%20Gen_L%20V1.0_008%20PIN.pdf|
+|MKS Gen LV1.0|https://www.botnroll.com/img/cms/MKS-Gen-L.pdf , https://github.com/makerbase-mks/MKS-GEN_L/blob/master/hardware/MKS%20Gen_L%20V1.0_008/MKS%20Gen_L%20V1.0_008%20PIN.pdf|
 
 - 
 
