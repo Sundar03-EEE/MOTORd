@@ -30,7 +30,9 @@ perfromance parameters:
 
 ## 2. Requirements
 ### 2.1 Hardware Requirements
-- *List required components, specifications, and dependencies.*
+|Componenet|Datasheet|
+|----------|-----------|
+- 
 
 ### 2.2 Software & Tools
 - *Mention any software, programming languages, or design tools needed.*
@@ -47,9 +49,11 @@ Tmc2209 coding mehthodlogy:
 ### 3.1 Research Links & Resources
 | Link | Notes |
 |----------|-----------|
+|https://www.youtube.com/watch?v=MNTuMiNC2TU| Motor dyno sample |
 |https://youtu.be/vSgcH2wjCwY?si=yuAE-5N2YzfLf8_i|Connection of Tmc2209 driver with MKS Gen L V1.0|
-|----------|-----------|
 |https://www.youtube.com/watch?v=sxzoAGf1kOo| Hx711 connection with load cell|
+|
+
 
 
 
