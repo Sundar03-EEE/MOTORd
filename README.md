@@ -30,9 +30,12 @@ perfromance parameters:
 
 ## 2. Requirements
 ### 2.1 Hardware Requirements
-|Componenet|Datasheet/schematics|
+|Componenet|Datasheet|schematics|
 |----------|-----------|
-|MKS Gen LV1.0|https://www.botnroll.com/img/cms/MKS-Gen-L.pdf , https://github.com/makerbase-mks/MKS-GEN_L/blob/master/hardware/MKS%20Gen_L%20V1.0_008/MKS%20Gen_L%20V1.0_008%20PIN.pdf|
+|MKS Gen LV1.0|https://www.botnroll.com/img/cms/MKS-Gen-L.pdf|https://github.com/makerbase-mks/MKS-GEN_L/blob/master/hardware/MKS%20Gen_L%20V1.0_008/MKS%20Gen_L%20V1.0_008%20PIN.pdf|
+|TMC2209 driver|https://components101.com/modules/tmc2209-stepper-motor-driver-module|https://www.analog.com/media/en/technical-documentation/data-sheets/tmc2209_datasheet_rev1.09.pdf|
+|Stepper motor|https://dc3dprinters.co.za/product/hanpose-stepper-motor-17hs8401s/|-|
+|Hx711|https://www.digikey.com/htmldatasheets/production/1836471/0/0/1/HX711.pdf|-|
 
 - 
 
