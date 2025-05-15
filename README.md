@@ -4,7 +4,7 @@
 > STEPPER MOTOR DYNO
 
 ### 1.2 Description
-> a dyno designed to test the parameters of nema17(17HS8401S/17HS4401S) and check speed torque characteristics 
+> a dyno designed to test the parameters of nema17 motors and check speed torque characteristics 
 
 ### 1.3 Goals & Objectives
 GOALS:
@@ -19,12 +19,12 @@ OBJECTIVES:
   - Provide practical insights and recommendations for choosing the best motor based on specific applications.
 ### 1.4 Key Features
 Stepper motors tested:
-- Hanpose stepper motors 17HS8401S and 17HS4401S are being tested.
+- Hanpose stepper motors 17HS8401S and 17HS4401S and LDO -42STH8-2504AC are being tested.
 - 
 perfromance parameters:
 - Torque output
 - voltage and current under increasing breaking force.
-- 
+- Rpm expected vs rpm live at every iteraion.
 
 ---
 
@@ -66,7 +66,7 @@ Tmc2209 coding mehthodlogy:
 
 
 ### 3.2 Key Decisions & Changes
-- *Document major design changes and why they were made.*
+- Raspberry pi pico was used for rpm and force data and  mks board  was used to only run the motors, as the mks was not able to count pulses from the encoder after a range. 
 
 ### 3.3 Issues & Solutions
 - **Issue:** *Describe the problem.*
@@ -83,7 +83,12 @@ Tmc2209 coding mehthodlogy:
 - Run the motor with a single driver using mks board.
 
 ### 4.2 Iterative Development
-- *Document key development phases and their outcomes.*
+-Mks firmare like klipper was not used , the mks was programmed only using arduino ide
+- Accel stepper library was used to run the stepper motors using mks board.
+- Interrupt based pulse detection was used to measure rpm from encoder
+- olav kallhovd library of hx711 was used in final code but for unit test and calibration of load cell the hx711 library by bogdan was used.
+- python script was used to control the whole mks and pico setup and generate the graph, the rpm threshold detection is done by the python.
+- 
 
 ### 4.3 Final Steps
 - *Summarize the last steps taken before project completion.*
@@ -97,13 +102,15 @@ Tmc2209 coding mehthodlogy:
 | *Test Name* | *What should happen?* | *What actually happened?* | ✅ / ❌ |
 
 ### 5.2 Performance & Reliability
-- *Describe stress tests, benchmarks, and overall performance analysis.*
+- The variatio
 
 ---
 
 ## 6. Final Documentation & Learnings
 ### 6.1 Finalized Steps
-- *Document the finalized workflow for future reference.*
+- Do unit testing of individual components  first before intergration.
+- No matter the rms current rating of the test motor , keep vref close to 1v for consistent results.
+- 
 
 ### 6.2 Lessons Learned
 - *What worked well? What could be improved?*
