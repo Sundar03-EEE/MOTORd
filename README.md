@@ -83,7 +83,7 @@ Tmc2209 coding mehthodlogy:
 - Run the motor with a single driver using mks board.
 
 ### 4.2 Iterative Development
--Mks firmare like klipper was not used , the mks was programmed only using arduino ide
+-Mks firmare or others  like klipper was not used , the mks was programmed only using arduino ide
 - Accel stepper library was used to run the stepper motors using mks board.
 - Interrupt based pulse detection was used to measure rpm from encoder
 - olav kallhovd library of hx711 was used in final code but for unit test and calibration of load cell the hx711 library by bogdan was used.
