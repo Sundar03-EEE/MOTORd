@@ -115,3 +115,9 @@ Tmc2209 coding mehthodlogy:
 
 ## 7. Additional Notes
 *(Any other important information.)*
+
+## Run the Code
+Note: Close all instances of arduino ide before running
+```bash
+python dynotest.py
+```
